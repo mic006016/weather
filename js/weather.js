@@ -122,7 +122,7 @@ async function initMap() {
     scrollwheel: false,
     disableDoubleClick: true,
     disableDoubleClickZoom: true,
-  };
+  }
   const map = new kakao.maps.Map(mapEl, mapOption)
 
   weather.allData.forEach((city) => {

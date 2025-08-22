@@ -89,6 +89,7 @@ min-width: 120px;
   width: 100%;
   height: 600px;
 }
+
 .map-overlay-wrapper {
   background-color: #fff;
   border-radius: 6px;
@@ -96,28 +97,36 @@ min-width: 120px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transform: translate(-8px, -136%);
 }
+
 .map-overlay-wrapper.seoul {
   transform: translate(-60%, -136%);
 }
+
 .map-overlay-wrapper.sokcho {
   transform: translate(-8px, -70%);
 }
+
 .map-overlay-wrapper.dokdo {
   transform: translate(-96%, -136%);
 }
-.map-overlay-wrapper > .inner-wrap > {
+
+.map-overlay-wrapper > .inner-wrap {
   display: flex;
   align-items: center;
 }
+
 .map-overlay-wrapper > .inner-wrap > .icon-wp {
 
 }
-.map-overlay-wrapper > .inner-wrap > .temp-wp > {
+
+.map-overlay-wrapper > .inner-wrap > .temp-wp {
   padding-right: 0.5em;
 }
+
 .map-overlay-wrapper > .inner-wrap > .temp-wp > .city-name {
   color: var(--text-9);
 }
+
 .map-overlay-wrapper > .inner-wrap > .temp-wp > .city-temp {
   color: var(--text-6);
 }
